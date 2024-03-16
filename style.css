@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+html {
+    font-size: 10px;
+}
+
+.hader>* {
+    font-size: 2rem;
+    height: 6rem;
+}
+
+.main {
+
+    font-size: 6dvw;
+}
+
+.pera {
+    font-size: 3.5dvw;
+}
+
+#mainsection,
+.pad,
+.topmargin {
+    margin-top: 5.6rem;
+}
+
+.peragame {
+    font-size: 4dvw;
+}
+
+.gunback {
+    background-color: rgb(13, 107, 253, 42%);
+}
+
+.emotback {
+    background-color: rgb(13, 178, 253, 46%);
+    
+}
+
+.vehicleback{
+    background-color: #90F0B7
+}
+
+.mapback{
+    background-color: #FFBA98;
+}
+
+.tipsback{
+    background-color: #E3B2FF;
+}
+
+.calback{
+    background-color: #9BBBFE;
+}
+
+.numinput{
+    border: 0px;
+    outline: 0px;
+    font-size: 1.8rem;
+      
+}
+
+.lfont{
+    font-size: 4rem;
+    margin-left: 35%;
+    margin-bottom: -1rem;
+}
+
+.s1{
+    background-color: #6bceed75;
+}
+
+.s2{
+    background-color: #ece21e6e;
+}
+
+.s3{
+    background-color: #78c9765e;
+}
