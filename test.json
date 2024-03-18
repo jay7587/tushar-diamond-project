@@ -1,0 +1,85 @@
+{
+  "gameChars": [
+    {
+      "id": "1",
+      "name": "Andrew",
+      "bgColor": "#F8D7DA",
+      "imgUrl": "../img/c2.webp",
+      "description": "Some Quick example...."
+    },
+    {
+      "id": "2",
+      "name": "Monark",
+      "bgColor": "#CFE2FF",
+      "imgUrl": "../img/c2.webp",
+      "description": "Some quick esrf"
+    },
+    {
+      "id": "3",
+      "name": "dgfrgdf",
+      "bgColor": "#F8D7DA",
+      "imgUrl": "../img/c3.webp",
+      "description": "Some Quick example...."
+    },
+    {
+      "id": "2",
+      "name": "Monark",
+      "bgColor": "#CFE2FF",
+      "imgUrl": "../img/c4.webp",
+      "description": "Some quick esrf"
+    },{
+      "id": "1",
+      "name": "Andrew",
+      "bgColor": "#F8D7DA",
+      "imgUrl": "../img/c5.webp",
+      "description": "Some Quick example...."
+    },
+    {
+      "id": "2",
+      "name": "Monark",
+      "bgColor": "#CFE2FF",
+      "imgUrl": "../img/c6.webp",
+      "description": "Some quick esrf"
+    },{
+      "id": "1",
+      "name": "Andrew",
+      "bgColor": "#F8D7DA",
+      "imgUrl": "../img/c7.webp",
+      "description": "Some Quick example...."
+    },
+    {
+      "id": "2",
+      "name": "Monark",
+      "bgColor": "#CFE2FF",
+      "imgUrl": "../img/c8.webp",
+      "description": "Some quick esrf"
+    },{
+      "id": "1",
+      "name": "Andrew",
+      "bgColor": "#F8D7DA",
+      "imgUrl": "../img/c9.webp",
+      "description": "Some Quick example...."
+    },
+    {
+      "id": "2",
+      "name": "Monark",
+      "bgColor": "#CFE2FF",
+      "imgUrl": "../img/c10.webp",
+      "description": "Some quick esrf"
+    }
+    
+  ],
+  "gameMaterials": [
+    {
+      "id": "1",
+      "name": "SCARL",
+      "bgColor": "#121212",
+      "description": "qewrqwerqerer",
+      "imgUrl": "../img/s.webp"
+    }
+  ],
+  "gameEmotes": [
+    {},
+    {}
+  ]
+}
