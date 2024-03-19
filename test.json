@@ -3,83 +3,373 @@
     {
       "id": "1",
       "name": "Andrew",
-      "bgColor": "#F8D7DA",
       "imgUrl": "../img/c2.webp",
-      "description": "Some Quick example...."
+      "description": [
+        "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi illum facilis adipisci voluptate iste voluptatum numquam nobis a error ipsum?",
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nobis saepe dicta iure explicabo quam beatae libero atque cupiditate commodi.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur aliquam earum exercitationem dolore, in veniam accusantium assumenda, necessitatibus officiis error aliquid neque expedita omnis iusto fuga qui. Perferendis magnam totam odio ut corrupti adipisci tempora, sint necessitatibus fugiat error soluta atque dicta numquam animi fugit natus quas! Laudantium pariatur architecto eveniet fugiat dolor. Odio similique delectus necessitatibus sapiente voluptatem voluptate?"
+      ]
     },
     {
       "id": "2",
       "name": "Monark",
       "bgColor": "#CFE2FF",
       "imgUrl": "../img/c2.webp",
-      "description": "Some quick esrf"
+      "description": [
+        "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi illum facilis adipisci voluptate iste voluptatum numquam nobis a error ipsum?",
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nobis saepe dicta iure explicabo quam beatae libero atque cupiditate commodi.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur aliquam earum exercitationem dolore, in veniam accusantium assumenda, necessitatibus officiis error aliquid neque expedita omnis iusto fuga qui. Perferendis magnam totam odio ut corrupti adipisci tempora, sint necessitatibus fugiat error soluta atque dicta numquam animi fugit natus quas! Laudantium pariatur architecto eveniet fugiat dolor. Odio similique delectus necessitatibus sapiente voluptatem voluptate?"
+      ]
     },
     {
       "id": "3",
       "name": "dgfrgdf",
       "bgColor": "#F8D7DA",
       "imgUrl": "../img/c3.webp",
-      "description": "Some Quick example...."
+      "description": [
+        "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi illum facilis adipisci voluptate iste voluptatum numquam nobis a error ipsum?",
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nobis saepe dicta iure explicabo quam beatae libero atque cupiditate commodi.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur aliquam earum exercitationem dolore, in veniam accusantium assumenda, necessitatibus officiis error aliquid neque expedita omnis iusto fuga qui. Perferendis magnam totam odio ut corrupti adipisci tempora, sint necessitatibus fugiat error soluta atque dicta numquam animi fugit natus quas! Laudantium pariatur architecto eveniet fugiat dolor. Odio similique delectus necessitatibus sapiente voluptatem voluptate?"
+      ]
     },
     {
-      "id": "2",
+      "id": "4",
       "name": "Monark",
       "bgColor": "#CFE2FF",
       "imgUrl": "../img/c4.webp",
-      "description": "Some quick esrf"
-    },{
-      "id": "1",
+      "description": [
+        "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi illum facilis adipisci voluptate iste voluptatum numquam nobis a error ipsum?",
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nobis saepe dicta iure explicabo quam beatae libero atque cupiditate commodi.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur aliquam earum exercitationem dolore, in veniam accusantium assumenda, necessitatibus officiis error aliquid neque expedita omnis iusto fuga qui. Perferendis magnam totam odio ut corrupti adipisci tempora, sint necessitatibus fugiat error soluta atque dicta numquam animi fugit natus quas! Laudantium pariatur architecto eveniet fugiat dolor. Odio similique delectus necessitatibus sapiente voluptatem voluptate?"
+      ]
+    },
+    {
+      "id": "5",
       "name": "Andrew",
       "bgColor": "#F8D7DA",
       "imgUrl": "../img/c5.webp",
-      "description": "Some Quick example...."
+      "description": [
+        "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi illum facilis adipisci voluptate iste voluptatum numquam nobis a error ipsum?",
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nobis saepe dicta iure explicabo quam beatae libero atque cupiditate commodi.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur aliquam earum exercitationem dolore, in veniam accusantium assumenda, necessitatibus officiis error aliquid neque expedita omnis iusto fuga qui. Perferendis magnam totam odio ut corrupti adipisci tempora, sint necessitatibus fugiat error soluta atque dicta numquam animi fugit natus quas! Laudantium pariatur architecto eveniet fugiat dolor. Odio similique delectus necessitatibus sapiente voluptatem voluptate?"
+      ]
     },
     {
-      "id": "2",
+      "id": "6",
       "name": "Monark",
       "bgColor": "#CFE2FF",
       "imgUrl": "../img/c6.webp",
-      "description": "Some quick esrf"
-    },{
-      "id": "1",
+      "description": [
+        "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi illum facilis adipisci voluptate iste voluptatum numquam nobis a error ipsum?",
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nobis saepe dicta iure explicabo quam beatae libero atque cupiditate commodi.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur aliquam earum exercitationem dolore, in veniam accusantium assumenda, necessitatibus officiis error aliquid neque expedita omnis iusto fuga qui. Perferendis magnam totam odio ut corrupti adipisci tempora, sint necessitatibus fugiat error soluta atque dicta numquam animi fugit natus quas! Laudantium pariatur architecto eveniet fugiat dolor. Odio similique delectus necessitatibus sapiente voluptatem voluptate?"
+      ]
+    },
+    {
+      "id": "7",
       "name": "Andrew",
       "bgColor": "#F8D7DA",
       "imgUrl": "../img/c7.webp",
-      "description": "Some Quick example...."
+      "description": [
+        "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi illum facilis adipisci voluptate iste voluptatum numquam nobis a error ipsum?",
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nobis saepe dicta iure explicabo quam beatae libero atque cupiditate commodi.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur aliquam earum exercitationem dolore, in veniam accusantium assumenda, necessitatibus officiis error aliquid neque expedita omnis iusto fuga qui. Perferendis magnam totam odio ut corrupti adipisci tempora, sint necessitatibus fugiat error soluta atque dicta numquam animi fugit natus quas! Laudantium pariatur architecto eveniet fugiat dolor. Odio similique delectus necessitatibus sapiente voluptatem voluptate?"
+      ]
     },
     {
-      "id": "2",
+      "id": "8",
       "name": "Monark",
       "bgColor": "#CFE2FF",
       "imgUrl": "../img/c8.webp",
-      "description": "Some quick esrf"
-    },{
-      "id": "1",
+      "description": [
+        "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi illum facilis adipisci voluptate iste voluptatum numquam nobis a error ipsum?",
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nobis saepe dicta iure explicabo quam beatae libero atque cupiditate commodi.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur aliquam earum exercitationem dolore, in veniam accusantium assumenda, necessitatibus officiis error aliquid neque expedita omnis iusto fuga qui. Perferendis magnam totam odio ut corrupti adipisci tempora, sint necessitatibus fugiat error soluta atque dicta numquam animi fugit natus quas! Laudantium pariatur architecto eveniet fugiat dolor. Odio similique delectus necessitatibus sapiente voluptatem voluptate?"
+      ]
+    },
+    {
+      "id": "9",
       "name": "Andrew",
       "bgColor": "#F8D7DA",
       "imgUrl": "../img/c9.webp",
-      "description": "Some Quick example...."
+      "description": [
+        "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi illum facilis adipisci voluptate iste voluptatum numquam nobis a error ipsum?",
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nobis saepe dicta iure explicabo quam beatae libero atque cupiditate commodi.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur aliquam earum exercitationem dolore, in veniam accusantium assumenda, necessitatibus officiis error aliquid neque expedita omnis iusto fuga qui. Perferendis magnam totam odio ut corrupti adipisci tempora, sint necessitatibus fugiat error soluta atque dicta numquam animi fugit natus quas! Laudantium pariatur architecto eveniet fugiat dolor. Odio similique delectus necessitatibus sapiente voluptatem voluptate?"
+      ]
     },
     {
-      "id": "2",
+      "id": "10",
       "name": "Monark",
       "bgColor": "#CFE2FF",
       "imgUrl": "../img/c10.webp",
-      "description": "Some quick esrf"
+      "description": [
+        "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi illum facilis adipisci voluptate iste voluptatum numquam nobis a error ipsum?",
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nobis saepe dicta iure explicabo quam beatae libero atque cupiditate commodi.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur aliquam earum exercitationem dolore, in veniam accusantium assumenda, necessitatibus officiis error aliquid neque expedita omnis iusto fuga qui. Perferendis magnam totam odio ut corrupti adipisci tempora, sint necessitatibus fugiat error soluta atque dicta numquam animi fugit natus quas! Laudantium pariatur architecto eveniet fugiat dolor. Odio similique delectus necessitatibus sapiente voluptatem voluptate?"
+      ]
     }
-    
   ],
   "gameMaterials": [
     {
       "id": "1",
       "name": "SCARL",
       "bgColor": "#121212",
-      "description": "qewrqwerqerer",
-      "imgUrl": "../img/s.webp"
+      "imgUrl": "../img/wea2.webp",
+      "content": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "description": [
+        "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi illum facilis adipisci voluptate iste voluptatum numquam nobis a error ipsum?",
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nobis saepe dicta iure explicabo quam beatae libero atque cupiditate commodi.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur aliquam earum exercitationem dolore, in veniam accusantium assumenda, necessitatibus officiis error aliquid neque expedita omnis iusto fuga qui. Perferendis magnam totam odio ut corrupti adipisci tempora, sint necessitatibus fugiat error soluta atque dicta numquam animi fugit natus quas! Laudantium pariatur architecto eveniet fugiat dolor. Odio similique delectus necessitatibus sapiente voluptatem voluptate?"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "A",
+      "bgColor": "#121212",
+      "imgUrl": "../img/wea3.webp",
+      "content": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "description": [
+        "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi illum facilis adipisci voluptate iste voluptatum numquam nobis a error ipsum?",
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nobis saepe dicta iure explicabo quam beatae libero atque cupiditate commodi.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur aliquam earum exercitationem dolore, in veniam accusantium assumenda, necessitatibus officiis error aliquid neque expedita omnis iusto fuga qui. Perferendis magnam totam odio ut corrupti adipisci tempora, sint necessitatibus fugiat error soluta atque dicta numquam animi fugit natus quas! Laudantium pariatur architecto eveniet fugiat dolor. Odio similique delectus necessitatibus sapiente voluptatem voluptate?"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "B",
+      "bgColor": "#121212",
+      "imgUrl": "../img/wea4.webp",
+      "content": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "description": [
+        "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi illum facilis adipisci voluptate iste voluptatum numquam nobis a error ipsum?",
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nobis saepe dicta iure explicabo quam beatae libero atque cupiditate commodi.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur aliquam earum exercitationem dolore, in veniam accusantium assumenda, necessitatibus officiis error aliquid neque expedita omnis iusto fuga qui. Perferendis magnam totam odio ut corrupti adipisci tempora, sint necessitatibus fugiat error soluta atque dicta numquam animi fugit natus quas! Laudantium pariatur architecto eveniet fugiat dolor. Odio similique delectus necessitatibus sapiente voluptatem voluptate?"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "C",
+      "bgColor": "#121212",
+      "imgUrl": "../img/wea5.webp",
+      "content": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "description": [
+        "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi illum facilis adipisci voluptate iste voluptatum numquam nobis a error ipsum?",
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nobis saepe dicta iure explicabo quam beatae libero atque cupiditate commodi.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur aliquam earum exercitationem dolore, in veniam accusantium assumenda, necessitatibus officiis error aliquid neque expedita omnis iusto fuga qui. Perferendis magnam totam odio ut corrupti adipisci tempora, sint necessitatibus fugiat error soluta atque dicta numquam animi fugit natus quas! Laudantium pariatur architecto eveniet fugiat dolor. Odio similique delectus necessitatibus sapiente voluptatem voluptate?"
+      ]
     }
   ],
   "gameEmotes": [
-    {},
-    {}
+    {
+      "id": "1",
+      "name": "SCARL",
+      "bgColor": "#121212",
+      "imgUrl": "../img/emo1.webp",
+      "content": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "description": [
+        "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi illum facilis adipisci voluptate iste voluptatum numquam nobis a error ipsum?",
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nobis saepe dicta iure explicabo quam beatae libero atque cupiditate commodi.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur aliquam earum exercitationem dolore, in veniam accusantium assumenda, necessitatibus officiis error aliquid neque expedita omnis iusto fuga qui. Perferendis magnam totam odio ut corrupti adipisci tempora, sint necessitatibus fugiat error soluta atque dicta numquam animi fugit natus quas! Laudantium pariatur architecto eveniet fugiat dolor. Odio similique delectus necessitatibus sapiente voluptatem voluptate?"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "A",
+      "bgColor": "#121212",
+      "imgUrl": "../img/emo2.webp",
+      "content": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "description": [
+        "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi illum facilis adipisci voluptate iste voluptatum numquam nobis a error ipsum?",
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nobis saepe dicta iure explicabo quam beatae libero atque cupiditate commodi.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur aliquam earum exercitationem dolore, in veniam accusantium assumenda, necessitatibus officiis error aliquid neque expedita omnis iusto fuga qui. Perferendis magnam totam odio ut corrupti adipisci tempora, sint necessitatibus fugiat error soluta atque dicta numquam animi fugit natus quas! Laudantium pariatur architecto eveniet fugiat dolor. Odio similique delectus necessitatibus sapiente voluptatem voluptate?"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "B",
+      "bgColor": "#121212",
+      "imgUrl": "../img/emo3.webp",
+      "content": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "description": [
+        "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi illum facilis adipisci voluptate iste voluptatum numquam nobis a error ipsum?",
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nobis saepe dicta iure explicabo quam beatae libero atque cupiditate commodi.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur aliquam earum exercitationem dolore, in veniam accusantium assumenda, necessitatibus officiis error aliquid neque expedita omnis iusto fuga qui. Perferendis magnam totam odio ut corrupti adipisci tempora, sint necessitatibus fugiat error soluta atque dicta numquam animi fugit natus quas! Laudantium pariatur architecto eveniet fugiat dolor. Odio similique delectus necessitatibus sapiente voluptatem voluptate?"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "C",
+      "bgColor": "#121212",
+      "imgUrl": "../img/emo4.webp",
+      "content": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "description": [
+        "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi illum facilis adipisci voluptate iste voluptatum numquam nobis a error ipsum?",
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nobis saepe dicta iure explicabo quam beatae libero atque cupiditate commodi.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur aliquam earum exercitationem dolore, in veniam accusantium assumenda, necessitatibus officiis error aliquid neque expedita omnis iusto fuga qui. Perferendis magnam totam odio ut corrupti adipisci tempora, sint necessitatibus fugiat error soluta atque dicta numquam animi fugit natus quas! Laudantium pariatur architecto eveniet fugiat dolor. Odio similique delectus necessitatibus sapiente voluptatem voluptate?"
+      ]
+    }
+  ],
+
+  "gameVehicle":[
+    {
+      "id": "1",
+      "name": "AERO",
+      "bgColor": "#121212",
+      "imgUrl": "../img/cars102.webp",
+      "content": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "description": [
+        "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi illum facilis adipisci voluptate iste voluptatum numquam nobis a error ipsum?",
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nobis saepe dicta iure explicabo quam beatae libero atque cupiditate commodi.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur aliquam earum exercitationem dolore, in veniam accusantium assumenda, necessitatibus officiis error aliquid neque expedita omnis iusto fuga qui. Perferendis magnam totam odio ut corrupti adipisci tempora, sint necessitatibus fugiat error soluta atque dicta numquam animi fugit natus quas! Laudantium pariatur architecto eveniet fugiat dolor. Odio similique delectus necessitatibus sapiente voluptatem voluptate?"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "NOVA",
+      "bgColor": "#121212",
+      "imgUrl": "../img/cars103.webp",
+      "content": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "description": [
+        "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi illum facilis adipisci voluptate iste voluptatum numquam nobis a error ipsum?",
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nobis saepe dicta iure explicabo quam beatae libero atque cupiditate commodi.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur aliquam earum exercitationem dolore, in veniam accusantium assumenda, necessitatibus officiis error aliquid neque expedita omnis iusto fuga qui. Perferendis magnam totam odio ut corrupti adipisci tempora, sint necessitatibus fugiat error soluta atque dicta numquam animi fugit natus quas! Laudantium pariatur architecto eveniet fugiat dolor. Odio similique delectus necessitatibus sapiente voluptatem voluptate?"
+      ]
+    }
+  ],
+
+  "gamePets":[
+    {
+      "id": "1",
+      "name": "starflight",
+      "bgColor": "#121212",
+      "imgUrl": "../img/pet1.webp",
+      "content": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "description": [
+        "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi illum facilis adipisci voluptate iste voluptatum numquam nobis a error ipsum?",
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nobis saepe dicta iure explicabo quam beatae libero atque cupiditate commodi.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur aliquam earum exercitationem dolore, in veniam accusantium assumenda, necessitatibus officiis error aliquid neque expedita omnis iusto fuga qui. Perferendis magnam totam odio ut corrupti adipisci tempora, sint necessitatibus fugiat error soluta atque dicta numquam animi fugit natus quas! Laudantium pariatur architecto eveniet fugiat dolor. Odio similique delectus necessitatibus sapiente voluptatem voluptate?"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Geardog",
+      "bgColor": "#121212",
+      "imgUrl": "../img/pet2.webp",
+      "content": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "description": [
+        "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi illum facilis adipisci voluptate iste voluptatum numquam nobis a error ipsum?",
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nobis saepe dicta iure explicabo quam beatae libero atque cupiditate commodi.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur aliquam earum exercitationem dolore, in veniam accusantium assumenda, necessitatibus officiis error aliquid neque expedita omnis iusto fuga qui. Perferendis magnam totam odio ut corrupti adipisci tempora, sint necessitatibus fugiat error soluta atque dicta numquam animi fugit natus quas! Laudantium pariatur architecto eveniet fugiat dolor. Odio similique delectus necessitatibus sapiente voluptatem voluptate?"
+      ]
+    }
+  ],
+  "gameMaps":[
+    {
+      "id": "1",
+      "name": "Haven",
+      "bgColor": "#121212",
+      "imgUrl": "../img/maps1.webp",
+      "content": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "description": [
+        "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi illum facilis adipisci voluptate iste voluptatum numquam nobis a error ipsum?",
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nobis saepe dicta iure explicabo quam beatae libero atque cupiditate commodi.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur aliquam earum exercitationem dolore, in veniam accusantium assumenda, necessitatibus officiis error aliquid neque expedita omnis iusto fuga qui. Perferendis magnam totam odio ut corrupti adipisci tempora, sint necessitatibus fugiat error soluta atque dicta numquam animi fugit natus quas! Laudantium pariatur architecto eveniet fugiat dolor. Odio similique delectus necessitatibus sapiente voluptatem voluptate?"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Nexus",
+      "bgColor": "#121212",
+      "imgUrl": "../img/maps2.webp",
+      "content": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "description": [
+        "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi illum facilis adipisci voluptate iste voluptatum numquam nobis a error ipsum?",
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nobis saepe dicta iure explicabo quam beatae libero atque cupiditate commodi.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur aliquam earum exercitationem dolore, in veniam accusantium assumenda, necessitatibus officiis error aliquid neque expedita omnis iusto fuga qui. Perferendis magnam totam odio ut corrupti adipisci tempora, sint necessitatibus fugiat error soluta atque dicta numquam animi fugit natus quas! Laudantium pariatur architecto eveniet fugiat dolor. Odio similique delectus necessitatibus sapiente voluptatem voluptate?"
+      ]
+    }
+  ],
+
+  "gameTips":[
+    {
+      "id": "1",
+      "name": "Select Landing point",
+      "bgColor": "#121212",
+      "imgUrl": "../img/tips.png",
+      "content": "Select the correct Landing point",
+      "description": [
+        "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi illum facilis adipisci voluptate iste voluptatum numquam nobis a error ipsum?",
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nobis saepe dicta iure explicabo quam beatae libero atque cupiditate commodi.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur aliquam earum exercitationem dolore, in veniam accusantium assumenda, necessitatibus officiis error aliquid neque expedita omnis iusto fuga qui. Perferendis magnam totam odio ut corrupti adipisci tempora, sint necessitatibus fugiat error soluta atque dicta numquam animi fugit natus quas! Laudantium pariatur architecto eveniet fugiat dolor. Odio similique delectus necessitatibus sapiente voluptatem voluptate?"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "collect information",
+      "bgColor": "#121212",
+      "imgUrl": "../img/tips.png",
+      "content": "collect correct information",
+      "description": [
+        "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi illum facilis adipisci voluptate iste voluptatum numquam nobis a error ipsum?",
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nobis saepe dicta iure explicabo quam beatae libero atque cupiditate commodi.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur aliquam earum exercitationem dolore, in veniam accusantium assumenda, necessitatibus officiis error aliquid neque expedita omnis iusto fuga qui. Perferendis magnam totam odio ut corrupti adipisci tempora, sint necessitatibus fugiat error soluta atque dicta numquam animi fugit natus quas! Laudantium pariatur architecto eveniet fugiat dolor. Odio similique delectus necessitatibus sapiente voluptatem voluptate?"
+      ]
+    }
+  ],
+  "dCalculator":[
+    {
+      "id": "1",
+      "name": "Diamond to doller",
+      "bgColor": "#121212",
+      "imgUrl": "../img/advance_calc.webp",
+      "content": "Select the correct Landing point",
+      "description": [
+        "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi illum facilis adipisci voluptate iste voluptatum numquam nobis a error ipsum?",
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nobis saepe dicta iure explicabo quam beatae libero atque cupiditate commodi.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur aliquam earum exercitationem dolore, in veniam accusantium assumenda, necessitatibus officiis error aliquid neque expedita omnis iusto fuga qui. Perferendis magnam totam odio ut corrupti adipisci tempora, sint necessitatibus fugiat error soluta atque dicta numquam animi fugit natus quas! Laudantium pariatur architecto eveniet fugiat dolor. Odio similique delectus necessitatibus sapiente voluptatem voluptate?"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "elite pass calculator",
+      "bgColor": "#121212",
+      "imgUrl": "../img/diamond_to_doller.png",
+      "content": "collect correct information",
+      "description": [
+        "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi illum facilis adipisci voluptate iste voluptatum numquam nobis a error ipsum?",
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nobis saepe dicta iure explicabo quam beatae libero atque cupiditate commodi.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur aliquam earum exercitationem dolore, in veniam accusantium assumenda, necessitatibus officiis error aliquid neque expedita omnis iusto fuga qui. Perferendis magnam totam odio ut corrupti adipisci tempora, sint necessitatibus fugiat error soluta atque dicta numquam animi fugit natus quas! Laudantium pariatur architecto eveniet fugiat dolor. Odio similique delectus necessitatibus sapiente voluptatem voluptate?"
+      ]
+    }
   ]
+
 }

@@ -12,45 +12,110 @@
 
 <body>
 
-    <!-- <div class="navbar d-flex justify-content-start fixed-top bg-white pb-0">
-        <a href="../../all list/gamedcalculator.html"><img src="../../img/back.png" alt="back" height="50"></a>
-        <p class="numinput ms-4 fw-bold text-primary">Diamonds To Dollar</p>
-    </div> -->
 
-    <div class="navbar d-flex justify-content-start align-items-end fixed-top bg-white align-middle">
-        <a href="../../all list/gamedcalculator.html"><img src="../../img/back.png" alt="back" height="50"></a>
-        <p class="fs-1 ms-4 fw-bold text-primary">Diamonds To Dollar</p>
+   <div id="content" class="p-4">
+
     </div>
 
-    <div class="w-75 mx-auto topmargin ">
-        <img class="card-img-top container-fluid" src="../../img/diamond_to_doller.png" alt="Card image cap">
-    </div>
-    <p class="col text-center">
-        <input type="number" name="" id="number" class="numinput border-bottom mx-auto col-11" placeholder="Enter The No of Diamonds">
-
-        <button class="col-11 my-3 p-2  fw-bold numinput bg-secondary " onclick="sumValue()">SUBMIT</button>
 
 
-        <p id="output" class=" fw-bold text-secondary text-start ms-3 main ">Your Diamondas price $: </p>
-    </p>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Retrieve the ID from URL parameters
+            const urlParams = new URLSearchParams(window.location.search);
+            const desiredId = urlParams.get('id');
 
+            // Fetch JSON data from the file
+            fetch("../../test.json")
+                .then(res => res.json())
+                .then(data => {
 
-    <div class="pera mx-3">
-        <p>Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
-        <p cl>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi illum facilis adipisci voluptate iste
-            voluptatum numquam nobis a error ipsum?</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nobis saepe dicta iure explicabo quam
-            beatae libero atque cupiditate commodi.</p>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur aliquam earum exercitationem dolore, in
-            veniam accusantium assumenda, necessitatibus officiis error aliquid neque expedita omnis iusto fuga qui.
-            Perferendis magnam totam odio ut corrupti adipisci tempora, sint necessitatibus fugiat error soluta atque
-            dicta numquam animi fugit natus quas! Laudantium pariatur architecto eveniet fugiat dolor. Odio similique
-            delectus necessitatibus sapiente voluptatem voluptate?
-        </p>
-    </div>
-    <script src="../../script.js"></script>
+                    // Filter the data based on the desired id
+                    const filteredData = data.dCalculator.filter(item => item.id === desiredId);
+
+                    // Generate page for each filtered item
+                    filteredData.forEach(item => {
+                        generatePage(item);
+                    });
+                })
+                .catch(error => console.error('Error fetching data:', error));
+
+            function generatePage(jsonData) {
+                const contentDiv = document.getElementById("content");
+
+                // Create navbar
+                const navbarDiv = document.createElement("div");
+                navbarDiv.classList.add("navbar", "d-flex", "justify-content-start", "align-items-end", "fixed-top", "bg-white", "align-middle");
+                const backButton = document.createElement("a");
+                backButton.setAttribute("href", "../gamedcalculator.html");
+                const backButtonImage = document.createElement("img");
+                backButtonImage.setAttribute("src", "../../img/back.png");
+                backButtonImage.setAttribute("alt", "back");
+                backButtonImage.setAttribute("height", "50");
+                backButton.appendChild(backButtonImage);
+                navbarDiv.appendChild(backButton);
+                const navbarText = document.createElement("p");
+                navbarText.classList.add("fs-3", "my-auto", "ms-4", "fw-bold", "text-primary");
+                navbarText.textContent = jsonData.name; // Assuming jsonData.name is the name for the navbar
+                navbarDiv.appendChild(navbarText);
+                contentDiv.appendChild(navbarDiv);
+
+                // Create image element
+                const imageDiv = document.createElement("div");
+                imageDiv.classList.add("w-75", "mx-auto", "mt-5");
+                const image = document.createElement("img");
+                image.classList.add("card-img-top", "container-fluid");
+                image.setAttribute("src", "../" + jsonData.imgUrl);
+                image.setAttribute("alt", "Card image cap");
+                imageDiv.appendChild(image);
+                contentDiv.appendChild(imageDiv);
+
+                // Add diamond price calculation section
+                const diamondPriceSection = document.createElement("div");
+                diamondPriceSection.classList.add("col", "text-center");
+                const diamondInput = document.createElement("input");
+                diamondInput.setAttribute("type", "number");
+                diamondInput.setAttribute("id", "number");
+                diamondInput.classList.add("numinput", "border-bottom", "mx-auto", "col-11");
+                diamondInput.setAttribute("placeholder", "Enter The No of Diamonds");
+                diamondPriceSection.appendChild(diamondInput);
+
+                const submitButton = document.createElement("button");
+                submitButton.classList.add("col-11", "my-3", "p-2", "fw-bold", "numinput", "bg-secondary");
+                submitButton.textContent = "SUBMIT";
+                submitButton.addEventListener("click", calculatePrice);
+                diamondPriceSection.appendChild(submitButton);
+
+                const outputParagraph = document.createElement("p");
+                outputParagraph.setAttribute("id", "output");
+                outputParagraph.classList.add("fw-bold", "text-secondary", "text-start", "ms-3", "pera");
+                outputParagraph.textContent = "Your Diamonds price $: ";
+                diamondPriceSection.appendChild(outputParagraph);
+
+                contentDiv.appendChild(diamondPriceSection);             
+
+                // Create content paragraph
+                const contentArray = jsonData.description;
+                contentArray.forEach(text => {
+                    const paragraph = document.createElement("p");
+                    paragraph.textContent = text;
+                    paragraph.classList.add("text-secondary");
+                    paragraph.classList.add("fs-3");
+                    contentDiv.appendChild(paragraph);
+                });
+
+                function calculatePrice() {
+                    var numberOfDiamonds = parseInt(document.getElementById("number").value);
+                    var pricePerDiamond =  0.01; 
+                    var totalPrice = numberOfDiamonds * pricePerDiamond;
+                    document.getElementById("output").textContent = "Your Diamonds price $: " + totalPrice;
+                }
+
+                
+            }
+        });
+
+    </script>
 </body>
 
 </html>

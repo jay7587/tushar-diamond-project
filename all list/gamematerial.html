@@ -11,26 +11,23 @@
 </head>
 
 <body>
-   
+
+
 
     <div class="navbar d-flex justify-content-start align-items-end fixed-top bg-white align-middle">
         <a href="../main.html"><img src="../img/back.png" alt="back" height="50"></a>
-        <p class="fs-1 ms-4 fw-bold text-primary">Dimond Calculator</p>
+        <p class="fs-1 ms-4 fw-bold text-primary">Game Materials</p>
     </div>
-    <!-- --------------- -->
 
-    <p class="topmargin mx-4 peragame ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nulla ea tempora
-        nisi corporis magni cumque quo sequi, officiis ullam ut dolor praesentium, totam officia?</p>
-
-    <!-- ------------ -->
-
+    <p class="topmargin mx-4 peragame">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, eligendi commodi!
+        Enim perspiciatis sed facilis.</p>
 
 
     <div id="output" class="">
 
     </div>
 
-
+   
 
     <script>
         fetch("../test.json")
@@ -40,18 +37,17 @@
 
                 console.log("data", data);
 
-                const htmlContent = data.dCalculator.map((char, index) => `
-                
-                    <a href="../all list/dimondcalpages/dimondtodoollar.html?id=${char.id}"
-        class="text-black text-decoration-none row  mx-3 my-4  calback g-0 rounded-5">
-        
-        <div class="col-5">
-            <img src="${char.imgUrl}" class="img-fluid" alt="Left Image">
-        </div>
+                const htmlContent = data.gameMaterials.map((char, index) => `
+                <a href="../all list/charterpage/materialpage.html?id=${char.id}" class="text-black text-decoration-none row  mx-3 my-4  gunback g-0 rounded-5">
         <div class="col-7 my-auto ">
-            <h1 class=" fw-bold lh-sm overflow-hidden text-center">${char.name}</h1>
-        </div>       
+            <img src="${char.imgUrl}" class="img-fluid " alt="Left Image">
+        </div>
+        <div class="col-5 my-auto">
 
+            <h2 class="main mt-1 overflow-hidden">${char.name}</h2>
+            <p class="peragame lh-sm text-secondary overflow-hidden ">${char.content}</p>
+
+        </div>
     </a>
     `).join('');
 
@@ -61,17 +57,6 @@
 
 
     </script>
-
-
-
-
-
-
-
-
-
-
-
 
 
 </body>

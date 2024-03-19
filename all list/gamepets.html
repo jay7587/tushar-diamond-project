@@ -12,10 +12,7 @@
 
 <body>
 
-    <!-- <div class="navbar d-flex justify-content-start fixed-top bg-white ">
-        <a href="../main.html"><img src="../img/back.png" alt="back" height="50"></a>
-        <p class="fs-1 ms-5 fw-bold text-primary">Game Pets</p>
-    </div> -->
+
 
     <div class="navbar d-flex justify-content-start align-items-end fixed-top bg-white align-middle">
         <a href="../main.html"><img src="../img/back.png" alt="back" height="50"></a>
@@ -26,113 +23,53 @@
         Enim perspiciatis sed facilis.</p>
 
 
-    <div class="row px-5 pt-4">
-
-        <a href="./charterpage/pets.html" class="col-6 text-decoration-none">
-
-            <div class="card-body bg-primary-subtle rounded-4">
-                <img class="card-img-top " src="../img/pet1.webp" alt="Card image cap">
-                <p class="card-text text-center fw-bold fs-2 text-black">ANDREW</p>
-            </div>
-
-        </a>
-
-
-        <a href="./charterpage/pets.html" class="col-6 text-decoration-none">
-            <div class="card-body bg-danger-subtle rounded-4">
-                <img class="card-img-top" src="../img/pet2.webp" alt="Card image cap">
-                <p class="card-text text-center fw-bold fs-2 text-black">ANDREW</p>
-            </div>
-
-        </a>
+    <div id="output" class="row px-5 mt-4">
 
     </div>
 
-    <div class="row px-5 pt-4">
 
-        <a href="./charterpage/pets.html" class="col-6 text-decoration-none">
+    <script>
+        fetch("../test.json")
+            .then(res => res.json())
+            .then(data => {
+                const outputElement = document.getElementById('output');
 
-            <div class="card-body bg-danger-subtle rounded-4">
-                <img class="card-img-top" src="../img/pet3.webp" alt="Card image cap">
-                <p class="card-text text-center fw-bold fs-2 text-black">ANDREW</p>
-            </div>
-        </a>
+                console.log("data", data);
 
-        <a href="./charterpage/pets.html" class="col-6 text-decoration-none">
+                const htmlContent = data.gamePets.map((char, index) => `
+                    <a href="./charterpage/pets.html?id=${char.id}" class="col-6 mb-4 text-decoration-none" id="${char.id}" onclick="handleClick(event)">
+                        <div class="card-body rounded-4" style="background-color: ${getBackgroundColor(index)};">
+                            <img class="card-img-top" src="${char.imgUrl}" alt="Card image cap">
+                            <p class="card-text text-center fw-bold fs-2 text-black">${char.name}</p>
+                        </div>
+                    </a>
+                `).join('');
 
-            <div class="card-body bg-primary-subtle rounded-4">
-                <img class="card-img-top " src="../img/pet4.webp" alt="Card image cap">
-                <p class="card-text text-center fw-bold fs-2 text-black">ANDREW</p>
-            </div>
-        </a>
+                outputElement.innerHTML = htmlContent;
+            })
+            .catch(error => console.error('Error fetching data:', error));
 
-    </div>
+        function handleClick(event) {
+            const clickedElementId = event.currentTarget.getAttribute('id');
+            localStorage.setItem('clickedElementId', clickedElementId);
+        }
 
-    <div class="row px-5 pt-4">
+        function getBackgroundColor(index) {
 
-        <a href="./charterpage/andrew.html" class="col-6 text-decoration-none">
+            const colorSequence = ['#CFE2FF', '#F8D7DA', '#F8D7DA', '#CFE2FF'];
 
-            <div class="card-body bg-primary-subtle rounded-4">
-                <img class="card-img-top " src="../img/pet5.webp" alt="Card image cap">
-                <p class="card-text text-center fw-bold fs-2 text-black">ANDREW</p>
-            </div>
+            const sequenceIndex = index % colorSequence.length;
 
-        </a>
-
-
-        <a href="./charterpage/pets.html" class="col-6 text-decoration-none">
-            <div class="card-body bg-danger-subtle rounded-4">
-                <img class="card-img-top" src="../img/pet6.webp" alt="Card image cap">
-                <p class="card-text text-center fw-bold fs-2 text-black">ANDREW</p>
-            </div>
-
-        </a>
-
-    </div>
-
-    <div class="row px-5 pt-4">
-
-        <a href="./charterpage/pets.html" class="col-6 text-decoration-none">
-
-            <div class="card-body bg-danger-subtle rounded-4">
-                <img class="card-img-top" src="../img/pet7.webp" alt="Card image cap">
-                <p class="card-text text-center fw-bold fs-2 text-black">ANDREW</p>
-            </div>
-        </a>
-
-        <a href="./charterpage/pets.html" class="col-6 text-decoration-none">
-
-            <div class="card-body bg-primary-subtle rounded-4">
-                <img class="card-img-top " src="../img/pet8.webp" alt="Card image cap">
-                <p class="card-text text-center fw-bold fs-2 text-black">ANDREW</p>
-            </div>
-        </a>
-
-    </div>
-
-    <div class="row px-5 pt-4">
-
-        <a href="./charterpage/andrew.html" class="col-6 text-decoration-none">
-
-            <div class="card-body bg-primary-subtle rounded-4">
-                <img class="card-img-top " src="../img/pet9.webp" alt="Card image cap">
-                <p class="card-text text-center fw-bold fs-2 text-black">ANDREW</p>
-            </div>
-
-        </a>
+            return colorSequence[sequenceIndex];
+        }
 
 
-        <a href="./charterpage/pets.html" class="col-6 text-decoration-none">
-            <div class="card-body bg-danger-subtle rounded-4">
-                <img class="card-img-top" src="../img/pet10.webp" alt="Card image cap">
-                <p class="card-text text-center fw-bold fs-2 text-black">ANDREW</p>
-            </div>
 
-        </a>
 
-    </div>
+    </script>
 
-    
+
+
 
 
 </body>

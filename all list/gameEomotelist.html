@@ -11,143 +11,52 @@
 </head>
 
 <body>
-<!-- ---------- -->
-    <!-- <div class="navbar d-flex justify-content-start fixed-top bg-white ">
-        <a href="../main.html"><img src="../img/back.png" alt="back" height="50"></a>
-        <p class="fs-1 ms-3 fw-bold text-primary">Game Emotes</p>
-    </div> -->
+
 
     <div class="navbar d-flex justify-content-start align-items-end fixed-top bg-white align-middle">
         <a href="../main.html"><img src="../img/back.png" alt="back" height="50"></a>
         <p class="fs-1 ms-4 fw-bold text-primary">Game Emotes</p>
     </div>
-    
-<!-- --------------- -->
+
+    <!-- --------------- -->
 
     <p class="topmargin mx-4 peragame ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nulla ea tempora
         nisi corporis magni cumque quo sequi, officiis ullam ut dolor praesentium, totam officia?</p>
 
-<!-- ------------ -->
-    <a href="../all list/charterpage/andrew.html" class="text-black text-decoration-none row  mx-3 my-4  emotback g-0 rounded-5">
+    <!-- ------------ -->
+
+    <div id="output" class="">
+
+    </div>  
+
+
+    <script>
+        fetch("../test.json")
+            .then(res => res.json())
+            .then(data => {
+                const outputElement = document.getElementById('output');
+
+                console.log("data", data);
+
+                const htmlContent = data.gameEmotes.map((char, index) => `
+                <a href="../all list/charterpage/emotespage.html?id=${char.id}" class="text-black text-decoration-none row  mx-3 my-4  emotback g-0 rounded-5">
         <div class="col-6 my-auto ps-4">
-            <h2 class="main mt-1 overflow-hidden">Lorem</h2>
-            <p class="peragame lh-sm text-secondary overflow-hidden me-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad tempora dolor consequatur.</p>
+            <h2 class="main mt-1 overflow-hidden">${char.name}</h2>
+            <p class="peragame lh-sm text-secondary overflow-hidden me-4">${char.content}</p>
         </div>
         <div class="col-6 ">
-            <img src="../img/emo1.webp" class="img-fluid " alt="Left Image">
+            <img src="${char.imgUrl}" class="img-fluid " alt="Left Image">
         </div>
 
     </a>
+    `).join('');
 
-    <a href="../all list/charterpage/andrew.html" class="text-black text-decoration-none row  mx-3 my-4  emotback g-0 rounded-5">
-        <div class="col-6 my-auto ps-4">
-            <h2 class="main mt-1 overflow-hidden">Lorem</h2>
-            <p class="peragame lh-sm text-secondary overflow-hidden me-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad tempora dolor consequatur.</p>
-        </div>
-        <div class="col-6 ">
-            <img src="../img/emo2.webp" class="img-fluid " alt="Left Image">
-        </div>
-
-    </a>
-
-    <a href="../all list/charterpage/andrew.html" class="text-black text-decoration-none row  mx-3 my-4  emotback g-0 rounded-5">
-        <div class="col-6 my-auto ps-4">
-            <h2 class="main mt-1 overflow-hidden">Lorem</h2>
-            <p class="peragame lh-sm text-secondary overflow-hidden me-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad tempora dolor consequatur.</p>
-        </div>
-        <div class="col-6 ">
-            <img src="../img/emo3.webp" class="img-fluid " alt="Left Image">
-        </div>
-
-    </a>
-
-    <a href="../all list/charterpage/andrew.html" class="text-black text-decoration-none row  mx-3 my-4  emotback g-0 rounded-5">
-        <div class="col-6 my-auto ps-4">
-            <h2 class="main mt-1 overflow-hidden">Lorem</h2>
-            <p class="peragame lh-sm text-secondary overflow-hidden me-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad tempora dolor consequatur.</p>
-        </div>
-        <div class="col-6 ">
-            <img src="../img/emo4.webp" class="img-fluid " alt="Left Image">
-        </div>
-
-    </a>
-
-    <a href="../all list/charterpage/andrew.html" class="text-black text-decoration-none row  mx-3 my-4  emotback g-0 rounded-5">
-        <div class="col-6 my-auto ps-4">
-            <h2 class="main mt-1 overflow-hidden">Lorem</h2>
-            <p class="peragame lh-sm text-secondary overflow-hidden me-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad tempora dolor consequatur.</p>
-        </div>
-        <div class="col-6 ">
-            <img src="../img/emo5.webp" class="img-fluid " alt="Left Image">
-        </div>
-
-    </a>
-
-    <a href="../all list/charterpage/andrew.html" class="text-black text-decoration-none row  mx-3 my-4  emotback g-0 rounded-5">
-        <div class="col-6 my-auto ps-4">
-            <h2 class="main mt-1 overflow-hidden">Lorem</h2>
-            <p class="peragame lh-sm text-secondary overflow-hidden me-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad tempora dolor consequatur.</p>
-        </div>
-        <div class="col-6 ">
-            <img src="../img/emo6.webp" class="img-fluid " alt="Left Image">
-        </div>
-
-    </a>
-
-    <a href="../all list/charterpage/andrew.html" class="text-black text-decoration-none row  mx-3 my-4  emotback g-0 rounded-5">
-        <div class="col-6 my-auto ps-4">
-            <h2 class="main mt-1 overflow-hidden">Lorem</h2>
-            <p class="peragame lh-sm text-secondary overflow-hidden me-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad tempora dolor consequatur.</p>
-        </div>
-        <div class="col-6 ">
-            <img src="../img/emo7.webp" class="img-fluid " alt="Left Image">
-        </div>
-
-    </a>
-
-    <a href="../all list/charterpage/andrew.html" class="text-black text-decoration-none row  mx-3 my-4  emotback g-0 rounded-5">
-        <div class="col-6 my-auto ps-4">
-            <h2 class="main mt-1 overflow-hidden">Lorem</h2>
-            <p class="peragame lh-sm text-secondary overflow-hidden me-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad tempora dolor consequatur.</p>
-        </div>
-        <div class="col-6 ">
-            <img src="../img/emo8.webp" class="img-fluid " alt="Left Image">
-        </div>
-
-    </a>
-
-    <a href="../all list/charterpage/andrew.html" class="text-black text-decoration-none row  mx-3 my-4  emotback g-0 rounded-5">
-        <div class="col-6 my-auto ps-4">
-            <h2 class="main mt-1 overflow-hidden">Lorem</h2>
-            <p class="peragame lh-sm text-secondary overflow-hidden me-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad tempora dolor consequatur.</p>
-        </div>
-        <div class="col-6 ">
-            <img src="../img/emo9.webp" class="img-fluid " alt="Left Image">
-        </div>
-
-    </a>
-
-    <a href="../all list/charterpage/andrew.html" class="text-black text-decoration-none row  mx-3 my-4  emotback g-0 rounded-5">
-        <div class="col-6 my-auto ps-4">
-            <h2 class="main mt-1 overflow-hidden">Lorem</h2>
-            <p class="peragame lh-sm text-secondary overflow-hidden me-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad tempora dolor consequatur.</p>
-        </div>
-        <div class="col-6 ">
-            <img src="../img/emo10.webp" class="img-fluid " alt="Left Image">
-        </div>
-
-    </a>
+                outputElement.innerHTML = htmlContent;
+            })
+            .catch(error => console.error('Error fetching data:', error));
 
 
-
-
-
-
-
-
-
-
-
+    </script>
 
 </body>
 
