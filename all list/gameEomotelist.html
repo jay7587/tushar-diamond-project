@@ -39,7 +39,7 @@
                 console.log("data", data);
 
                 const htmlContent = data.gameEmotes.map((char, index) => `
-                <a href="../all list/charterpage/emotespage.html?id=${char.id}" class="text-black text-decoration-none row  mx-3 my-4  emotback g-0 rounded-5">
+                <a href="../all list/charterpage/pages.html?id=${char.id}&objName=gameEmotes" class="text-black text-decoration-none row  mx-3 my-4  emotback g-0 rounded-5">
         <div class="col-6 my-auto ps-4">
             <h2 class="main mt-1 overflow-hidden">${char.name}</h2>
             <p class="peragame lh-sm text-secondary overflow-hidden me-4">${char.content}</p>
@@ -61,3 +61,4 @@
 </body>
 
 </html>
+

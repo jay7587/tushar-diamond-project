@@ -18,9 +18,9 @@
     </div>
 
     <div id="output" class="row px-5 pt-5 pad ">
-  
+
     </div>
-    
+
 
     <script>
         fetch("../test.json")
@@ -31,7 +31,7 @@
                 console.log("data", data);
 
                 const htmlContent = data.gameChars.map((char, index) => `
-            <a href="./charterpage/pages.html?id=${char.id}" class="col-6 mb-4 text-decoration-none" id="${char.id}" onclick="handleClick(event)">
+            <a href="./charterpage/pages.html?id=${char.id}&objName=gameChars" class="col-6 mb-4 text-decoration-none">
                 <div class="card-body rounded-4" style="background-color: ${getBackgroundColor(index)};">
                     <img class="card-img-top" src="${char.imgUrl}" alt="Card image cap">
                     <p class="card-text text-center fw-bold fs-2 text-black">${char.name}</p>
@@ -43,10 +43,7 @@
             })
             .catch(error => console.error('Error fetching data:', error));
 
-        function handleClick(event) {
-            const clickedElementId = event.currentTarget.getAttribute('id');
-            localStorage.setItem('clickedElementId', clickedElementId);
-        }
+
 
         function getBackgroundColor(index) {
 
@@ -57,7 +54,7 @@
             return colorSequence[sequenceIndex];
         }
 
-
+        
 
 
     </script>

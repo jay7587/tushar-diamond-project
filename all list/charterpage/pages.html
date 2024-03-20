@@ -20,14 +20,16 @@
             // Retrieve the ID from URL parameters
             const urlParams = new URLSearchParams(window.location.search);
             const desiredId = urlParams.get('id');
+            const desiredObjName = urlParams.get('objName');
+
 
             // Fetch JSON data from the file
             fetch("../../test.json")
                 .then(res => res.json())
-                .then(data => {
+                .then(data => {                    
 
                     // Filter the data based on the desired id
-                    const filteredData = data.gameChars.filter(item => item.id === desiredId);
+                    const filteredData = data[desiredObjName].filter(item => item.id === desiredId);
 
                     // Generate page for each filtered item
                     filteredData.forEach(item => {
@@ -43,7 +45,7 @@
                 const navbarDiv = document.createElement("div");
                 navbarDiv.classList.add("navbar", "d-flex", "justify-content-start", "align-items-end", "fixed-top", "bg-white", "align-middle");
                 const backButton = document.createElement("a");
-                backButton.setAttribute("href", "../gamecharlist.html");
+                backButton.setAttribute("href", "javascript:history.back()");
                 const backButtonImage = document.createElement("img");
                 backButtonImage.setAttribute("src", "../../img/back.png");
                 backButtonImage.setAttribute("alt", "back");
@@ -84,6 +86,15 @@
 
             }
         });
+
+
+        // Disable scroll restoration by the browser
+        window.addEventListener('scroll', () => {
+            sessionStorage.setItem('scrollPosition', window.scrollY);
+        });        
+        if ('scrollRestoration' in history) {
+            history.scrollRestoration = 'manual';
+        }
 
     </script>
 </body>

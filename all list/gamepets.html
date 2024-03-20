@@ -37,7 +37,7 @@
                 console.log("data", data);
 
                 const htmlContent = data.gamePets.map((char, index) => `
-                    <a href="./charterpage/pets.html?id=${char.id}" class="col-6 mb-4 text-decoration-none" id="${char.id}" onclick="handleClick(event)">
+                    <a href="./charterpage/pages.html?id=${char.id}&objName=gamePets" class="col-6 mb-4 text-decoration-none" id="${char.id}" onclick="handleClick(event)">
                         <div class="card-body rounded-4" style="background-color: ${getBackgroundColor(index)};">
                             <img class="card-img-top" src="${char.imgUrl}" alt="Card image cap">
                             <p class="card-text text-center fw-bold fs-2 text-black">${char.name}</p>
